@@ -129,6 +129,38 @@ a {
     max-width: 150px;
 }
 
+/* Information panels style*/
+
+.information {
+    margin: 0px auto 30px auto;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+    overflow:auto;
+}
+
+.information img {
+    max-height: 300px;
+    float:left;
+    width: 35%;
+    border: white solid;
+}
+
+.info h2 {
+    font-size: 36px;
+    margin-bottom:20px;
+}
+
+.info {
+    float:left;
+    width: 65%;
+}
+.text-left {
+    text-align: left;
+}
+
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,14 +170,6 @@ a {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -166,11 +190,6 @@ a {
 
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .online-reputation-management h2 {
